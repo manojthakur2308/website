@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block px-6 py-3 rounded-xl font-semibold shadow-lg bg-gradient-to-r from-cyan-500 to-green-400 text-white hover:shadow-xl transition-all hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply inline-block px-6 py-3 rounded-xl font-semibold border-2 border-gray-300 text-gray-700 hover:border-cyan-600 hover:text-cyan-600 transition-colors;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+/* Accessibility: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
