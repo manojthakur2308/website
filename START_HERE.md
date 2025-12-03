@@ -7,40 +7,46 @@ Welcome! This file will guide you through everything you need to know about the 
 ## 🚀 Quick Start (2 minutes)
 
 ### 1. Start the Development Server
+
 ```bash
 cd "d:\Mern Stack\Website"
 npm run dev
 ```
+
 → Open http://localhost:5173 in your browser
 
 ### 2. Make Changes
+
 - Edit files in `src/`
 - Changes auto-reload in browser
 
 ### 3. Build for Production
+
 ```bash
 npm run build
 ```
+
 → Creates optimized `dist/` folder
 
 ---
 
 ## 📚 Documentation Index
 
-| Document | Purpose | Read Time |
-|----------|---------|-----------|
-| **QUICK_START.md** | Overview & statistics | 2 min |
-| **README_NEW.md** | Complete setup guide | 5 min |
-| **DEVELOPER_GUIDE.md** | Commands & tips | 3 min |
-| **DEPLOYMENT_CHECKLIST.md** | Pre-launch checklist | 10 min |
-| **IMPLEMENTATION_SUMMARY.md** | Technical details | 5 min |
-| **COMPLETION_REPORT.md** | Full project report | 10 min |
+| Document                      | Purpose               | Read Time |
+| ----------------------------- | --------------------- | --------- |
+| **QUICK_START.md**            | Overview & statistics | 2 min     |
+| **README_NEW.md**             | Complete setup guide  | 5 min     |
+| **DEVELOPER_GUIDE.md**        | Commands & tips       | 3 min     |
+| **DEPLOYMENT_CHECKLIST.md**   | Pre-launch checklist  | 10 min    |
+| **IMPLEMENTATION_SUMMARY.md** | Technical details     | 5 min     |
+| **COMPLETION_REPORT.md**      | Full project report   | 10 min    |
 
 ---
 
 ## 🎯 What's Included
 
 ### 8 Pages
+
 - **Home** - Landing page with services, projects, testimonials
 - **About** - Company info, team, timeline, values
 - **Services** - 6 detailed services with process
@@ -51,9 +57,11 @@ npm run build
 - **404 Page** - Custom not found page
 
 ### 10+ Components
+
 All reusable, type-safe, and fully responsive
 
 ### Modern Stack
+
 - React 19 + TypeScript
 - Tailwind CSS
 - Vite (fast builds)
@@ -65,6 +73,7 @@ All reusable, type-safe, and fully responsive
 ## 📋 What You Need to Do
 
 ### Essential (Before Launch)
+
 - [ ] **Update Content** - Replace placeholder text with real company info
 - [ ] **Add Images** - Replace placeholder images with your assets
 - [ ] **Setup Google Forms** - Create forms and update URLs in `.env`
@@ -72,6 +81,7 @@ All reusable, type-safe, and fully responsive
 - [ ] **Deploy** - Push to Vercel/Netlify or your hosting
 
 ### Important (For Best Results)
+
 - [ ] Set up Google Analytics
 - [ ] Configure Google Search Console
 - [ ] Add company logo
@@ -79,6 +89,7 @@ All reusable, type-safe, and fully responsive
 - [ ] Customize colors in `tailwind.config.js`
 
 ### Optional (Future Improvements)
+
 - [ ] Add more projects
 - [ ] Add team photos
 - [ ] Integrate with backend API
@@ -90,6 +101,7 @@ All reusable, type-safe, and fully responsive
 ## 🔄 Typical Workflow
 
 ### Day 1: Setup Content
+
 1. Open `src/pages/Home.tsx`
 2. Update company information
 3. Update services list
@@ -97,6 +109,7 @@ All reusable, type-safe, and fully responsive
 5. Save and test
 
 ### Day 2: Add Images
+
 1. Collect company images
 2. Optimize images (compress)
 3. Place in `public/` or use CDN
@@ -104,6 +117,7 @@ All reusable, type-safe, and fully responsive
 5. Test responsiveness
 
 ### Day 3: Configure Forms
+
 1. Create Google Forms
 2. Copy share URLs
 3. Update `.env` file
@@ -111,6 +125,7 @@ All reusable, type-safe, and fully responsive
 5. Test form submissions
 
 ### Day 4: Deploy
+
 1. Push to GitHub
 2. Connect to Vercel/Netlify
 3. Configure domain
@@ -173,7 +188,9 @@ npm install
 ## 🎨 Customization Guide
 
 ### Change Colors
+
 Edit `tailwind.config.js`:
+
 ```js
 colors: {
   primary: '#0891b2',      // Change this
@@ -182,7 +199,9 @@ colors: {
 ```
 
 ### Update Company Info
+
 Edit `src/pages/Home.tsx` and update:
+
 - Company name
 - Headline
 - Services list
@@ -190,6 +209,7 @@ Edit `src/pages/Home.tsx` and update:
 - Statistics
 
 ### Add Google Forms
+
 1. Go to forms.google.com
 2. Create a new form
 3. Share and copy link
@@ -197,7 +217,9 @@ Edit `src/pages/Home.tsx` and update:
 5. Add the link to `.env`
 
 ### Update Navigation
+
 Edit `src/components/Header.tsx` to change:
+
 - Logo text
 - Navigation links
 - Contact button text
@@ -207,14 +229,17 @@ Edit `src/components/Header.tsx` to change:
 ## 🌐 Deployment Options
 
 ### Best Option: Vercel
+
 ```bash
 npm install -g vercel
 vercel login
 vercel
 ```
+
 → Automatic CI/CD from GitHub
 
 ### Alternative: Netlify
+
 ```bash
 npm install -g netlify-cli
 netlify login
@@ -222,6 +247,7 @@ netlify deploy --prod
 ```
 
 ### Traditional Hosting
+
 1. Run `npm run build`
 2. Upload `dist/` folder to host
 3. Configure server for SPA routing
@@ -231,6 +257,7 @@ netlify deploy --prod
 ## ⚠️ Important Reminders
 
 **Before Going Live:**
+
 1. ✅ Replace "REPLACE_WITH_YOUR_GOOGLE_FORM" with real URLs
 2. ✅ Update "newerait.com" with your actual domain
 3. ✅ Replace "info@newerait.com" with your email
@@ -243,22 +270,26 @@ netlify deploy --prod
 ## 🐛 Common Issues & Solutions
 
 ### Port Already in Use
+
 ```bash
 # Kill process and try again
 npm run dev -- --port 3000
 ```
 
 ### Styles Not Loading
+
 - Clear cache: `rm -rf node_modules package-lock.json`
 - Reinstall: `npm install`
 - Rebuild: `npm run build`
 
 ### TypeScript Errors
+
 ```bash
 npm run lint  # Check for issues
 ```
 
 ### Images Not Showing
+
 - Check file path in component
 - Verify image is in `public/` folder
 - Clear browser cache (Ctrl+Shift+Delete)
@@ -268,6 +299,7 @@ npm run lint  # Check for issues
 ## 📊 Success Metrics
 
 After launch, monitor:
+
 - **Page Speed**: Use Google PageSpeed Insights
 - **Traffic**: Setup Google Analytics
 - **Search Rankings**: Check Google Search Console
@@ -345,6 +377,7 @@ The website is complete and ready to use. Just:
 ---
 
 ### Quick Links
+
 - 📖 Full Documentation: See README_NEW.md
 - 👨‍💻 Developer Commands: See DEVELOPER_GUIDE.md
 - 🚀 Deployment: See DEPLOYMENT_CHECKLIST.md

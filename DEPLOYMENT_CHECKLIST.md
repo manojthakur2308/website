@@ -3,6 +3,7 @@
 ## Before Going Live
 
 ### 🔵 Content Updates
+
 - [ ] Update company name and branding throughout
 - [ ] Replace all placeholder images with real company photos
 - [ ] Update team member information and photos
@@ -14,6 +15,7 @@
 - [ ] Update statistics (years, projects, clients)
 
 ### 🔗 Links & Forms
+
 - [ ] Replace GOOGLE_FORM_LINK with actual contact form URL
 - [ ] Set up Google Forms for contact inquiries
 - [ ] Set up Google Forms for job applications
@@ -24,6 +26,7 @@
 - [ ] Verify all external links work
 
 ### 🌐 SEO & Domain
+
 - [ ] Purchase domain name
 - [ ] Update domain in robots.txt (sitemap URL)
 - [ ] Update domain in sitemap.xml
@@ -34,6 +37,7 @@
 - [ ] Create og:image social sharing images
 
 ### 📊 Analytics & Monitoring
+
 - [ ] Set up Google Analytics 4
 - [ ] Add Google Search Console
 - [ ] Set up error tracking (Sentry recommended)
@@ -42,6 +46,7 @@
 - [ ] Set up email notifications for errors
 
 ### 🔒 Security
+
 - [ ] Enable HTTPS (automatic on Vercel/Netlify)
 - [ ] Set up security headers
 - [ ] Add GDPR/privacy compliance notice
@@ -50,6 +55,7 @@
 - [ ] Verify no sensitive data in code
 
 ### ⚡ Performance
+
 - [ ] Test Lighthouse score
 - [ ] Optimize images with Cloudinary or similar
 - [ ] Test on mobile devices
@@ -58,6 +64,7 @@
 - [ ] Check pagespeed insights
 
 ### 🧪 Testing
+
 - [ ] Test all links
 - [ ] Test forms submission
 - [ ] Test on Chrome, Firefox, Safari, Edge
@@ -68,6 +75,7 @@
 - [ ] Test with JavaScript disabled (navigation only)
 
 ### 📱 Responsive Testing
+
 - [ ] Mobile (320px - 480px)
 - [ ] Tablet (481px - 768px)
 - [ ] Desktop (769px - 1024px)
@@ -75,6 +83,7 @@
 - [ ] Test orientation change
 
 ### 🚀 Deployment
+
 - [ ] Choose hosting (Vercel/Netlify recommended)
 - [ ] Configure CI/CD pipeline
 - [ ] Set up auto-deploy from Git
@@ -85,6 +94,7 @@
 - [ ] Monitor error logs post-deployment
 
 ### 📞 Post-Launch
+
 - [ ] Monitor uptime
 - [ ] Check analytics for traffic
 - [ ] Monitor form submissions
@@ -94,6 +104,7 @@
 - [ ] Schedule security updates
 
 ### 📝 Documentation
+
 - [ ] Document deployment process
 - [ ] Document how to update content
 - [ ] Document how to add new projects
@@ -136,18 +147,21 @@ VITE_API_URL=https://api.example.com (if using backend)
 ## Important Reminders
 
 ⚠️ **Replace ALL instances of:**
+
 - `https://forms.gle/REPLACE_WITH_YOUR_GOOGLE_FORM`
 - `newerait.com` (with your domain)
 - `info@newerait.com` (with your email)
 - Placeholder images and content
 
 ✅ **Once Updated:**
+
 1. Run `npm run build` to generate production files
 2. Test build: `npm run preview`
 3. Push to Git
 4. Deploy to Vercel/Netlify
 
 🎯 **Key Success Metrics:**
+
 - Lighthouse Desktop Score: 85+
 - Lighthouse Mobile Score: 70+
 - Core Web Vitals: All Green
